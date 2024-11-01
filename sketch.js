@@ -35,3 +35,9 @@ function draw() {
     }
   }
 }
+// funzione che permette ridimensionamento del canvas quando la finestra viene ridimensionata.
+function windowResized() { 
+  resizeCanvas(windowWidth, windowHeight);
+  redraw(); 
+  //Ridisegna il canvas dopo sul ridimensionamento.
+}
